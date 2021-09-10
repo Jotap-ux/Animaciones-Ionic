@@ -6,14 +6,14 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
-import {MatSliderModule} from '@angular/material/slider'
+import {MatSliderModule} from '@angular/material/slider'  //IMPORTAR ESTO
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    MatSliderModule
+    MatSliderModule //IMPORTAR ESTO
   ],
   declarations: [HomePage]
 })
