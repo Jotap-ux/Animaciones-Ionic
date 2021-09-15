@@ -31,7 +31,7 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css", "src/theme/variables.scss", "src/global.scss"],
+            "styles": ["./node_modules/@angular/material/prebuilt-themes/purple-green.css", "src/theme/variables.scss", "src/global.scss"],
             "scripts": [],
             "aot": false,
             "vendorChunk": true,
@@ -97,7 +97,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "styles": [ "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"],
+            "styles": [ "./node_modules/@angular/material/prebuilt-themes/purple-green.css"],
             "scripts": [],
             "assets": [
               {
@@ -171,6 +171,7 @@
     }
   },
   "cli": {
+    "analytics": "9f539d5e-fca2-447a-b82c-7a87b8ee81b4",
     "defaultCollection": "@ionic/angular-toolkit"
   },
   "schematics": {

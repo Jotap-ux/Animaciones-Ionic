@@ -1,15 +1,7 @@
-//estilo barra menu
-.example-spacer {
-    flex: 1 1 auto;
-  }
-
-//HOJA ESTILO BOTONES IMPUT
-.example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .example-full-width {
-    width: 100%;
-  }
+//estilo cuadrado que se mueve
+.square {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 255, 0.5);
+  margin: 10px;
+}
